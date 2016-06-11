@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+
+.footer, .push {
+	height: 40px;
+}
+
+.nav {
+	background-color: #SASASA;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #5A5A5A;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		li {
+			float: left;
+			font-family: sans-serif;
+			a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				&:hover {
+					background-color: #464646;
+				}
+			}
+			.active {
+				background-color: #F0B902;
+			}
+		}
+	}
+}
+h1 {
+	font-family: sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+body {
+	background-color: #F4E58E;
+	.body {
+		img {
+			border-radius: 2em;
+		}
+		padding-botom: 40px;
+		ul {
+			display: inline;
+			
+		}
+	}
+	
+	.footer {
+		width: 100%;
+		background-color: #F0B902;
+		position: fixed;
+		bottom: 0;
+		margin: 0;
+		ul {
+			list-style-type: none;
+			position: fixed;
+			width: 100%;
+			float: right;
+			li {
+				float: right;
+				position: fixed;
+				a {
+					display: block;
+					padding: -56px -64px;
+					position: fixed;
+					float: right;
+				}
+				.facebook {
+					width: 29px;
+					height: 29px;
+					display: block;
+					padding-top: 10px;
+					position: fixed;
+					float: right;
+					background:transparent url("FB-f-Logo__blue_29.png") center top no-repeat;
+					&:hover {
+						background-image: url('FB-f-Logo__white_29.png');
+					}
+				}
+			}
+		}
+	}
+}
+
